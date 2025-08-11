@@ -1,0 +1,34 @@
+addTask()
+
+Purpose: Adds a new task to the tasks array.
+
+How it works:
+
+Checks if input is not empty.
+
+Pushes a new task object { text: input, completed: false } into tasks.
+
+Resets input to an empty string.
+
+toggleTask(index)
+
+Purpose: Toggles the completed state of a specific task.
+
+How it works:
+
+Creates a copy of the tasks array.
+
+Flips the completed boolean for the task at the given index.
+
+Updates the tasks state.
+
+deleteTask(index)
+
+Purpose: Deletes a specific task from the list.
+
+How it works:
+
+Filters out the task at the given index from the tasks array.
+
+Updates the tasks state with the filtered list.
+
