@@ -1,10 +1,14 @@
 import React from "react"
-import "./App.css"
+import "./App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+
 function App() {
 
   return (
-    <div id="firstdiv">
-      <h1>The setup has been completed</h1>
+    <div id="maindiv">
+      <div id="firstdiv"><Header/></div>
+      <div id="lastdiv"><Footer/></div>
     </div>
   )
 }
